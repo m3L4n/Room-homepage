@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+:root {
+  background-color: black;
+  --dark-gray: hsl(0, 0%, 63%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --very-dark-gray: hsl(0, 0%, 27%);
+}
+
+.logo{
+font-size: 1.75rem;
+font-weight: 500;
+color: var(--white);
+font-family: 'League Spartan', sans-serif;
+}
+.big-title{
+  font-size: 2.8rem;
+  font-weight: 600;
+  font-family: 'League Spartan', sans-serif;  
+}
+.title{
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: 'League Spartan', sans-serif; 
+}
+.body-light{
+font-size: 0.95rem;
+font-weight: 500;
+font-family: 'League Spartan', sans-serif;
+}
+.body-medium{
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'League Spartan', sans-serif;
+}
+.body-bold{
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: 'League Spartan', sans-serif;
+}
+
